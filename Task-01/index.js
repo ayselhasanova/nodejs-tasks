@@ -7,9 +7,9 @@ const HOST = 5000
 
 app.get('/workers', (req, res) => {
     res.json([
-    { username: 'Sam', id: 1 }, 
-    { username: 'Alex', id: 2 }, 
-    { username: 'Benjamin', id: 3 }
+    { name: 'Sam', id: 1, age: 27 }, 
+    { name: 'Alex', id: 2, age: 32 }, 
+    { name: 'Benjamin', id: 3, age: 24 }
 ])
     res.send('<h1>Hello world</h1>')
 })
